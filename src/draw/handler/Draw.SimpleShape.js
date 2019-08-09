@@ -6,7 +6,9 @@ L.SimpleShape = {};
  */
 L.Draw.SimpleShape = L.Draw.Feature.extend({
 	options: {
-		repeatMode: false
+		repeatMode: false,
+		editing: {},
+		original: {}
 	},
 
 	// @method initialize(): void

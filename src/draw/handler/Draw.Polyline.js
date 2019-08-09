@@ -41,7 +41,9 @@ L.Draw.Polyline = L.Draw.Feature.extend({
 		showLength: true, // Whether to display distance in the tooltip
 		zIndexOffset: 2000, // This should be > than the highest z-index any map layers
 		factor: 1, // To change distance calculation
-		maxPoints: 0 // Once this number of points are placed, finish shape
+		maxPoints: 0, // Once this number of points are placed, finish shape
+		editing: {},
+		original: {}
 	},
 
 	// @method initialize(): void

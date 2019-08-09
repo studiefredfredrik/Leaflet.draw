@@ -30,7 +30,9 @@ L.Draw.Polygon = L.Draw.Polyline.extend({
 		feet: true, // When not metric, to use feet instead of yards for display.
 		nautic: false, // When not metric, not feet use nautic mile for display
 		// Defines the precision for each type of unit (e.g. {km: 2, ft: 0}
-		precision: {}
+		precision: {},
+		editing: {},
+		original: {}
 	},
 
 	// @method initialize(): void
